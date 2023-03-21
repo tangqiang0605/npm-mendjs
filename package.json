@@ -1,6 +1,6 @@
 {
   "name": "mendjs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -15,6 +15,7 @@
     "lint": "eslint src --ext .js,.ts --cache --fix",
     "test:tsc": "pnpm build && node dist/index.js",
     "dev": "tsc --watch",
+    "testing": "jest --watch",
     "build": "tsc",
     "prepare": "husky install",
     "test": "jest",
